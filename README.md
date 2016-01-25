@@ -19,12 +19,12 @@ bundle install
 
 Run the server
 ```
-middleman
+bundle exec middleman
 ```
 
 Deploy to GitHub Pages
 ```
-middleman deploy
+bundle exec middleman deploy
 ```
 
 ## Directories
