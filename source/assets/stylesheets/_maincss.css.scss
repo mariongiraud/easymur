@@ -1,0 +1,8 @@
+div {
+  @include outer-coutainer;
+
+  img {
+    @include span-columns(12);
+  }
+
+}
