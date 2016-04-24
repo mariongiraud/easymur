@@ -8,16 +8,42 @@ body {
   display: flex;
   justify-content: center;
   height: 100vh;
+}
 
-  .container {
-    text-align: center;
+.container {
+  background-color: $black;
+  text-align: center;
+  width: 100px;
 
-    h1 {
-      font-weight: 200;
-    }
+  h1 {
+    font-weight: 200;
+  }
+
+  p {
+    color: #medium-gray;
   }
 }
 
+.header {
+  height: 250px;
+  background-color: $white;
+}
+
+.product {
+  height: 500px;
+  background-color: $orange;
+}
+
+.footer {
+  height: 125px;
+  background-color: $black;
+}
+
+.text {
+  background-color: $orange;
+  color: $black;
+  width: 600px;
+}
 section {
 
   img {
